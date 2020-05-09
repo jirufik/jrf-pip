@@ -1,0 +1,45 @@
+{
+  "name": "jrf-pip",
+  "version": "1.0.0",
+  "description": "parallel iteration processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "roots": [
+      "./tests"
+    ],
+    "collectCoverage": true
+  },
+  "keywords": [
+    "jrf-pip",
+    "parallel",
+    "iteration",
+    "processing",
+    "jrf"
+  ],
+  "author": {
+    "name": "jirufik",
+    "url": "https://github.com/jirufik"
+  },
+  "maintainers": [
+    {
+      "name": "jirufik",
+      "url": "https://github.com/jirufik"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirufik/jrf-pip"
+  }
+}
